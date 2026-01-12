@@ -2,7 +2,7 @@
 
 A comprehensive data science project that analyzes retail transaction data to identify at-risk customers and simulate the ROI of targeted retention campaigns. This project demonstrates proficiency in data engineering, customer segmentation using RFM analysis, and business intelligence for marketing optimization.
 
-## 🎯 Project Overview
+##  Project Overview
 
 The Customer Revenue Optimizer project enables businesses to:
 - **Identify Customer Segments**: Classify customers into actionable segments (Champions, Loyal, At Risk, Lost, etc.) using RFM analysis
@@ -10,7 +10,7 @@ The Customer Revenue Optimizer project enables businesses to:
 - **Simulate Campaign ROI**: Calculate the potential return on investment for targeted discount campaigns
 - **Optimize Marketing Spend**: Make data-driven decisions about customer retention strategies
 
-## 📊 Business Impact
+##  Business Impact
 
 This analysis helps businesses:
 - **Reduce Customer Churn**: Proactively identify and engage at-risk customers before they leave
@@ -58,7 +58,7 @@ The chart highlights a **Net ROI of $159,345 (466.7%)**, showing that targeted i
 - **NumPy**: Numerical computing
 - **Matplotlib & Seaborn**: Data visualization
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 revenue-optimizer/
@@ -70,7 +70,7 @@ revenue-optimizer/
 └── revenue_comparison.png  # Revenue comparison chart for At Risk segment
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -114,7 +114,7 @@ This will:
    - Revenue comparison for "At Risk" segment
 5. Display ROI simulation results
 
-## 📈 RFM Analysis Explained
+##  RFM Analysis Explained
 
 ### RFM Metrics
 
@@ -140,7 +140,7 @@ This will:
 - **Promising**: Moderate R, low F - Growing customers
 - **Need Attention**: Mixed scores - Require personalized approach
 
-## 💡 Usage Examples
+##  Usage Examples
 
 ### Basic Usage
 
@@ -180,7 +180,7 @@ print(f"Net ROI: ${roi_results['net_roi']:,.2f}")
 print(f"ROI Percentage: {roi_results['roi_percentage']:.2f}%")
 ```
 
-## 📊 Key Features
+##  Key Features
 
 ### Data Engineering
 - Robust data cleaning (handles missing values, negative quantities/prices)
@@ -204,7 +204,7 @@ print(f"ROI Percentage: {roi_results['roi_percentage']:.2f}%")
 - Error handling and validation
 - Modular, maintainable code
 
-## 🔧 Customization
+##  Customization
 
 ### Adjusting Segment Definitions
 
@@ -221,7 +221,7 @@ Specify a custom reference date when calling `calculate_rfm_metrics()`:
 optimizer.calculate_rfm_metrics(reference_date='2011-12-09')
 ```
 
-## 📝 Output Files
+##  Output Files
 
 The pipeline generates the following output files:
 
@@ -229,15 +229,15 @@ The pipeline generates the following output files:
 - **segment_distribution.png**: Bar chart showing the distribution of customers across segments (see [Visualizations](#-visualizations) section above)
 - **revenue_comparison.png**: Comparison of current vs. potential revenue for the "At Risk" segment (see [Visualizations](#-visualizations) section above)
 
-## 🤝 Contributing
+##  Contributing
 
 This is a portfolio project. For questions or suggestions, please open an issue.
 
-## 📄 License
+##  License
 
 This project is created for educational and portfolio purposes.
 
-## 👤 Author
+##  Author
 
 Developed as a demonstration of data science and MLOps engineering skills for internship applications.
 
