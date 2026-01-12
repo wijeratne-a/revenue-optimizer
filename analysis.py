@@ -90,7 +90,7 @@ class RevenueOptimizer:
             pd.DataFrame: Raw transaction data loaded from CSV.
 
         Raises:
-            FileNotFoundError: If the data file does not exist.
+            FileNotFoundError: If the deata file does not exist.
             UnicodeDecodeError: If the specified encoding fails.
             IOError: If file reading fails.
         """
